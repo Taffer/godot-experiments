@@ -12,6 +12,7 @@ see where this goes.
 * [Experiment 02 - Monospaced Text](#experiment02)
 * [Experiment 03 - Variable Text](#experiment03)
 * [Experiment 04 - Text Entry](#experiment04)
+* [Experiment 05 - Image Fade](#experiment05)
 
 ## Bribe me
 
@@ -31,7 +32,7 @@ These use the [Godot Engine](https://godotengine.org/).
 
 Stuff I wrote is released under the [MIT license](LICENSE.md), and any
 resources are covered by their respective licenses (please see individual
-experiment writeup for details). I'm only using open source and freely usable
+experiment write up for details). I'm only using open source and freely usable
 third-party bits, but they might not be using MIT's license.
 
 ## <a name="experiment01">Experiment 01 - Scrolling Texture</a>
@@ -56,7 +57,7 @@ write a shader! Thank you Internet for answering this question.
 * `character_robot_jump.png` - From Kenney.nl's freely usable
   [Toon Characters 1](https://kenney.nl/assets/toon-characters-1) collection.
 
-# <a name="experiment02">Experiment 2 - Monospaced Text</a>
+## <a name="experiment02">Experiment 2 - Monospaced Text</a>
 
 This is an attempt to create a simple text/console type of window. Print text
 to it, render it, and scroll up when you reach the bottom. Think of the
@@ -76,7 +77,7 @@ the text area so you can be sure it's not over-drawing.
   this is licensed under the
   [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
 
-# <a name="experiment03">Experiment 3 - Variable Width Text</a>
+## <a name="experiment03">Experiment 3 - Variable Width Text</a>
 
 This is the same as [Experiment 2](#experiment02), but with a variable-width
 font. This is trivial in Godot.
@@ -88,7 +89,7 @@ font. This is trivial in Godot.
   this is licensed under the
   [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
 
-# <a name="experiment04">Experiment 4 - Text Entry</a>
+## <a name="experiment04">Experiment 4 - Text Entry</a>
 
 This is an attempt to turn Experiment 2 into a simple text entry box. Whatever
 you type will be printed in the text area.
@@ -106,3 +107,14 @@ This is trivial with Godot, just use a `TextEntry` object.
   [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
   this is licensed under the
   [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+
+## <a name="experiment05">Experiment 5 - Image Fade</a>
+
+In this experiment, we'll fade an image from black to fully-drawn.
+
+![Experiment 5 - Image Fade](experiment-5.png)
+
+### Graphics
+
+* `character_robot_jump.png` - From Kenney.nl's freely usable
+  [Toon Characters 1](https://kenney.nl/assets/toon-characters-1) collection.
