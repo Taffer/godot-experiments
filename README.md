@@ -15,6 +15,7 @@ see where this goes.
 * [Experiment 05 - Image Fade](#experiment05)
 * [Experiment 06 - UI Dialog](#experiment06)
 * [Experiment 07 - Animiated Icon](#experiment07)
+* [Experiment 08 - Styled Text](#experiment08)
 
 ## Bribe me
 
@@ -161,3 +162,19 @@ This is trivial in Godot thanks to the `AnimiatedSprite` object.
 
 * `character_robot_sheet.png` - From Kenney.nl's freely usable
   [Toon Characters 1](https://kenney.nl/assets/toon-characters-1) collection.
+
+## Experiment 8 - Styled Text
+
+This is an attempt to create a simple text window that supports some text
+styling (multiple fonts and colours). Print text to it, render it, and scroll
+up when you reach the bottom.
+
+![Experiment 8 - Styled Text](experiment-8.png)
+
+### Graphics
+
+* `LiberationMono-Bold.ttf` and `LiberationSerif-Bold.ttf` - Open source fonts
+  from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
