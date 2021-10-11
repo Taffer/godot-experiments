@@ -13,6 +13,7 @@ see where this goes.
 * [Experiment 03 - Variable Text](#experiment03)
 * [Experiment 04 - Text Entry](#experiment04)
 * [Experiment 05 - Image Fade](#experiment05)
+* [Experiment 06 - UI Dialog](#experiment06)
 
 ## Bribe me
 
@@ -120,3 +121,29 @@ In this experiment, we'll fade an image from black to fully-drawn.
 
 * `character_robot_jump.png` - From Kenney.nl's freely usable
   [Toon Characters 1](https://kenney.nl/assets/toon-characters-1) collection.
+
+## <a name="experiment06">Experiment 6 - UI Dialog</a>
+
+In this experiment, we'll draw a dialog box with some text in it and a
+character portrait.
+
+![Experiment 6 - UI Dialog](experiment-6.png)
+
+### Graphics
+
+* `HONK.png` - The Goose from House House's amazing
+  [Untitled Goose Game](https://goose.game/), used without permission. I'm not
+  affiliated with House House in any way, other than as a happy customer. You
+  should buy Untitled Goose Game, it's *amazingly fun*. I have it on my Switch!
+* `rpg_gui_v1` -
+  [RPG GUI construction kit v1.0](https://opengameart.org/content/rpg-gui-construction-kit-v10)
+  by Lamoot on OpenGameArt.org. I had to create a 9-patch image of the parts I
+  wanted to use because I couldn't figure out how to use arbitrary texture
+  hunks for it in Godot.
+
+Font:
+
+* `LiberationSerif-Bold.ttf` - An open source font from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
