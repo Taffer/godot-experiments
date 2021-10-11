@@ -14,6 +14,7 @@ see where this goes.
 * [Experiment 04 - Text Entry](#experiment04)
 * [Experiment 05 - Image Fade](#experiment05)
 * [Experiment 06 - UI Dialog](#experiment06)
+* [Experiment 07 - Animiated Icon](#experiment07)
 
 ## Bribe me
 
@@ -147,3 +148,16 @@ Font:
   [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
   this is licensed under the
   [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+
+## <a name="experiment07">Experiment 7 - Animated Icon</a>
+
+In this experiment, we'll draw an animated icon.
+
+![Experiment 7 - Animated Icon](experiment-7.png)
+
+This is trivial in Godot thanks to the `AnimiatedSprite` object.
+
+### Graphics
+
+* `character_robot_sheet.png` - From Kenney.nl's freely usable
+  [Toon Characters 1](https://kenney.nl/assets/toon-characters-1) collection.
