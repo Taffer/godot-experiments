@@ -82,6 +82,8 @@ the text area so you can be sure it's not over-drawing.
 This is the same as [Experiment 2](#experiment02), but with a variable-width
 font. This is trivial in Godot.
 
+![Experiment 3 - Variable Text](experiment-3.png)
+
 ### Graphics
 
 * `LiberationSerif-Bold.ttf` - An open source font from the
