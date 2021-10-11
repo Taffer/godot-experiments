@@ -11,6 +11,7 @@ see where this goes.
 * [Experiment 01 - Scrolling Texture](#experiment01)
 * [Experiment 02 - Monospaced Text](#experiment02)
 * [Experiment 03 - Variable Text](#experiment03)
+* [Experiment 04 - Text Entry](#experiment04)
 
 ## Bribe me
 
@@ -83,6 +84,25 @@ font. This is trivial in Godot.
 ### Graphics
 
 * `LiberationSerif-Bold.ttf` - An open source font from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+
+# <a name="experiment04">Experiment 4 - Text Entry</a>
+
+This is an attempt to turn Experiment 2 into a simple text entry box. Whatever
+you type will be printed in the text area.
+
+We'll make an area that can display five lines of 20 characters each. There's a
+rectangle around the text area so you can be sure it's not over-drawing.
+
+![Experiment 4 - Text Entry](experiment-4.png)
+
+This is trivial with Godot, just use a `TextEntry` object.
+
+### Graphics
+
+* `LiberationMono-Bold.ttf` - An open source font from the
   [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
   this is licensed under the
   [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
