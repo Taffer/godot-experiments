@@ -10,6 +10,7 @@ see where this goes.
 
 * [Experiment 01 - Scrolling Texture](#experiment01)
 * [Experiment 02 - Monospaced Text](#experiment02)
+* [Experiment 03 - Variable Text](#experiment03)
 
 ## Bribe me
 
@@ -70,6 +71,18 @@ the text area so you can be sure it's not over-drawing.
 ### Graphics
 
 * `LiberationMono-Bold.ttf` - An open source font from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+
+# <a name="experiment03">Experiment 3 - Variable Width Text</a>
+
+This is the same as [Experiment 2](#experiment02), but with a variable-width
+font. This is trivial in Godot.
+
+### Graphics
+
+* `LiberationSerif-Bold.ttf` - An open source font from the
   [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
   this is licensed under the
   [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
