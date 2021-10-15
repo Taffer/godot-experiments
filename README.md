@@ -16,6 +16,7 @@ see where this goes.
 * [Experiment 06 - UI Dialog](#experiment06)
 * [Experiment 07 - Animiated Icon](#experiment07)
 * [Experiment 08 - Styled Text](#experiment08)
+* [Experiment 09 - UI Button](#experiment09)
 
 ## Bribe me
 
@@ -163,7 +164,7 @@ This is trivial in Godot thanks to the `AnimiatedSprite` object.
 * `character_robot_sheet.png` - From Kenney.nl's freely usable
   [Toon Characters 1](https://kenney.nl/assets/toon-characters-1) collection.
 
-## Experiment 8 - Styled Text
+## <a name="experiment08">Experiment 8 - Styled Text</a>
 
 This is an attempt to create a simple text window that supports some text
 styling (multiple fonts and colours). Print text to it, render it, and scroll
@@ -175,6 +176,26 @@ up when you reach the bottom.
 
 * `LiberationMono-Bold.ttf` and `LiberationSerif-Bold.ttf` - Open source fonts
   from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+
+## <a name="experiment09">Experiment 9 - UI Button</a>
+
+In this experiment, we'll draw a button with some text in it. It'll respond
+to the mouse hovering over it, and clicks.
+
+![Experiment 9 - UI Button](experiment-9.png)
+
+### Graphics
+
+* `rpg_gui_v1` -
+  [RPG GUI construction kit v1.0](https://opengameart.org/content/rpg-gui-construction-kit-v10)
+  by Lamoot on OpenGameArt.org.
+
+Font:
+
+* `LiberationSerif-Bold.ttf` - An open source font from the
   [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
   this is licensed under the
   [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
