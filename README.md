@@ -19,6 +19,7 @@ see where this goes.
 * [Experiment 09 - UI Button](#experiment09)
 * [Experiment 10 - UI Spinbox](#experiment10)
 * [Experiment 11 - Tilemap](#experiment11)
+* [Experiment 12 - Tilemap Minimap](#experiment12)
 
 ## Bribe me
 
@@ -227,6 +228,31 @@ in [Tiled](https://www.mapeditor.org/). Use the arrow keys or WASD to move
 the viewport around the map.
 
 ![Experiment 11 - Tilemap](experiment-11.png)
+
+### Graphics
+
+* `LiberationSerif-Bold.ttf` - An open source font from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+* `terrain-map-v7.png` -
+  [LPC Terrains](https://opengameart.org/content/lpc-terrains) from OpenGameArt:
+
+> "[LPC] Terrains" by bluecarrot16, Lanea Zimmerman (Sharm), Daniel Eddeland
+> (Daneeklu), Richard Kettering (Jetrel), Zachariah Husiar (Zabin), Hyptosis,
+> Casper Nilsson, Buko Studios, Nushio, ZaPaper, billknye, William Thompson,
+> caeles, Redshrike, Bertram, and Rayane Félix (RayaneFLX). See
+> `CREDITS-terrain.txt`. You MUST credit all authors with the information in
+> this file, and you must link back to this page on OpenGameArt.
+
+## Experiment 12 - Minimap Tilemap
+
+In this experiment, we'll draw a viewport onto a tilemap that was created
+in [Tiled](https://www.mapeditor.org/). Use the arrow keys or WASD to move
+the viewport around the map. This version adds a minimap that follows the
+viewport.
+
+![Experiment 12 - Tilemap](experiment-12.png)
 
 ### Graphics
 
