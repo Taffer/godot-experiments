@@ -20,6 +20,7 @@ see where this goes.
 * [Experiment 10 - UI Spinbox](#experiment10)
 * [Experiment 11 - Tilemap](#experiment11)
 * [Experiment 12 - Tilemap Minimap](#experiment12)
+* [Experiment 13 - Fade](#experiment13)
 
 ## Bribe me
 
@@ -269,3 +270,16 @@ viewport.
 > caeles, Redshrike, Bertram, and Rayane Félix (RayaneFLX). See
 > `CREDITS-terrain.txt`. You MUST credit all authors with the information in
 > this file, and you must link back to this page on OpenGameArt.
+
+## Experiment 13 - Rect Fades
+
+In this experiment, we'll try to fade in/out on an image by drawing over it
+with masking rectangles.
+
+![Experiment 13 - Rect Fades](experiment-13.png)
+
+### Graphics
+
+* `fox n girl shadows.png` by zonked on
+  [OpenGameArt](https://opengameart.org/content/girl-n-fox-n-old-man); resized
+  and cropped to fit the window I'm using.
