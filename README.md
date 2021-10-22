@@ -21,6 +21,7 @@ see where this goes.
 * [Experiment 11 - Tilemap](#experiment11)
 * [Experiment 12 - Tilemap Minimap](#experiment12)
 * [Experiment 13 - Fade](#experiment13)
+* [Experiment 14 - Animated Sprite](#experiment14)
 
 ## Bribe me
 
@@ -246,7 +247,7 @@ the viewport around the map.
 > `CREDITS-terrain.txt`. You MUST credit all authors with the information in
 > this file, and you must link back to this page on OpenGameArt.
 
-## Experiment 12 - Minimap Tilemap
+## <a name="experiment12">Experiment 12 - Minimap Tilemap</a>
 
 In this experiment, we'll draw a viewport onto a tilemap that was created
 in [Tiled](https://www.mapeditor.org/). Use the arrow keys or WASD to move
@@ -271,7 +272,7 @@ viewport.
 > `CREDITS-terrain.txt`. You MUST credit all authors with the information in
 > this file, and you must link back to this page on OpenGameArt.
 
-## Experiment 13 - Rect Fades
+## <a name="experiment13">Experiment 13 - Rect Fades</a>
 
 In this experiment, we'll try to fade in/out on an image by drawing over it
 with masking rectangles.
@@ -283,3 +284,31 @@ with masking rectangles.
 * `fox n girl shadows.png` by zonked on
   [OpenGameArt](https://opengameart.org/content/girl-n-fox-n-old-man); resized
   and cropped to fit the window I'm using.
+
+## <a name="experiment14">Experiment 14 - Animated Sprite</a>
+
+In this experiment, we'll animate one of the Liberated Pixel Cup sprites
+(OpenGameArt's mascot, Sara). Use WASD or arrow keys to walk around.
+
+![Experiment 14 - Animated Sprite](experiment-14.png)
+
+### Graphics
+
+* `grass.png` - A
+  [grass tile](https://opengameart.org/content/grass-tiles-0), by Invincible.
+* `LiberationMono-Bold.ttf` - An open source font from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+* [`LPC_Sara`](https://opengameart.org/content/lpc-sara) - Stephen "Redshrike"
+  Challener as graphic artist and William.Thompsonj as contributor. Mandi Paugh
+  is the original artist of Sara and creator of the
+  [OGA](https://opengameart.org/) mascot.
+
+LPC sprite sheet documentation:
+
+* Each row is a complete animation cycle.
+* Rows are mostly in groups of four based on facing: away, left, forward, right.
+* Animation rows are: Spellcast, Thrust, Walk, Slash, Shoot, Hurt (only one
+  facing for Hurt).
+* Are 64x64 on the sprite sheet.
