@@ -26,6 +26,7 @@ see where this goes.
 * [Experiment 16 - Joystick](#experiment16)
 * [Experiment 17 - Sprite Joystick](#experiment17)
 * [Experiment 18 - Tilemap Layers](#experiment18)
+* [Experiment 19 - Lighting](#experiment19)
 
 ## Bribe me
 
@@ -371,3 +372,28 @@ a map that has several layers.
 > caeles, Redshrike, Bertram, and Rayane Félix (RayaneFLX). See
 > `CREDITS-terrain.txt`. You MUST credit all authors with the information in
 > this file, and you must link back to this page on OpenGameArt.
+
+## <a name="experiment19">Experiment 19 - Simple Lights</a>
+
+In this experiment, we'll take experiment *14 - Animated Sprite* and
+add some simple lighting.
+
+This uses Godot's 2D lighting rather than the blocky shadows of the original
+demo.
+
+![Experiment 19 - Simple Lights](experiment-19.png)
+
+### Graphics
+
+* `grass.png` - A
+  [grass tile](https://opengameart.org/content/grass-tiles-0), by Invincible.
+* `LiberationMono-Bold.ttf` - An open source font from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+* [`light.png`](https://github.com/godotengine/godot-demo-projects/blob/master/2d/lights_and_shadows/light.png)
+  is from Godot's 2D Lights and Shadows demo.
+* [`LPC_Sara`](https://opengameart.org/content/lpc-sara) - Stephen "Redshrike"
+  Challener as graphic artist and William.Thompsonj as contributor. Mandi Paugh
+  is the original artist of Sara and creator of the
+  [OGA](https://opengameart.org/) mascot.
