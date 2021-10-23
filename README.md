@@ -23,6 +23,9 @@ see where this goes.
 * [Experiment 13 - Fade](#experiment13)
 * [Experiment 14 - Animated Sprite](#experiment14)
 * [Experiment 15 - Drop shadow text](#experiment15)
+* [Experiment 16 - Joystick](#experiment16)
+* [Experiment 17 - Sprite Joystick](#experiment17)
+* [Experiment 18 - Tilemap Layers](#experiment18)
 
 ## Bribe me
 
@@ -330,3 +333,41 @@ make our white text more readable on a light coloured background.
   [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
   this is licensed under the
   [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+
+## <a name="experiment16">Experiment 16 - Joystick</a>
+
+I'm skipping implementing this one because Godot handles joysticks transparently
+through the input mapping support. Both Löve2D and PyGame provide extremely
+low-level access to the gamepad data and it's up to you to map the raw numbers
+into something useful.
+
+## <a name="experiment17">Experiment 17 - Sprite Joystick</a>
+
+Similarly, I'm skipping Experiment 17, because it's just
+[Experiment 14](#experiment14) with joystick support for movement. Through the
+magic of Godot's input mapping, Experiment 14 already supports gamepad control.
+
+## <a name="experiment18">Experiment 18 - Tilemap Layers</a>
+
+In this experiment, we'll draw a viewport onto a tilemap that was created
+in [Tiled](https://www.mapeditor.org/). Use the arrow keys or WASD to move
+the viewport around the map. This expands on *Experiment 11* by working with
+a map that has several layers.
+
+![Experiment 18 - Tilemap Layers](experiment-18.png)
+
+### Graphics
+
+* `LiberationSerif-Bold.ttf` - An open source font from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+* `terrain-map-v7.png` -
+  [LPC Terrains](https://opengameart.org/content/lpc-terrains) from OpenGameArt:
+
+> "[LPC] Terrains" by bluecarrot16, Lanea Zimmerman (Sharm), Daniel Eddeland
+> (Daneeklu), Richard Kettering (Jetrel), Zachariah Husiar (Zabin), Hyptosis,
+> Casper Nilsson, Buko Studios, Nushio, ZaPaper, billknye, William Thompson,
+> caeles, Redshrike, Bertram, and Rayane Félix (RayaneFLX). See
+> `CREDITS-terrain.txt`. You MUST credit all authors with the information in
+> this file, and you must link back to this page on OpenGameArt.
