@@ -22,6 +22,7 @@ see where this goes.
 * [Experiment 12 - Tilemap Minimap](#experiment12)
 * [Experiment 13 - Fade](#experiment13)
 * [Experiment 14 - Animated Sprite](#experiment14)
+* [Experiment 15 - Drop shadow text](#experiment15)
 
 ## Bribe me
 
@@ -312,3 +313,20 @@ LPC sprite sheet documentation:
 * Animation rows are: Spellcast, Thrust, Walk, Slash, Shoot, Hurt (only one
   facing for Hurt).
 * Are 64x64 on the sprite sheet.
+
+## <a name="experiment15">Experiment 15 - Text Dropshadows</a>
+
+This experiment draws text with different dropshadows, so we can see how to
+make our white text more readable on a light coloured background.
+
+![Experiment 15 - Text Dropshadows](experiment-15.png)
+
+### Graphics
+
+* `grass.png` - A
+  [grass tile](https://opengameart.org/content/grass-tiles-0), by Invincible.
+* `LiberationMono-Bold.ttf` and `LiberationSerif-Bold.ttf` - An open source
+  font from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).

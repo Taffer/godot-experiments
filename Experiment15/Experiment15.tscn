@@ -1,0 +1,484 @@
+[gd_scene load_steps=22 format=2]
+
+[ext_resource path="res://Experiment15.gd" type="Script" id=1]
+[ext_resource path="res://resources/LiberationSerif-Bold.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://resources/LiberationMono-Bold.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=5]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=6]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=7]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=8]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=9]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=10]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=11]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=12]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=13]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=14]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=15]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=16]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=17]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=18]
+font_data = ExtResource( 3 )
+
+[node name="ColorRect" type="ColorRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 1.0
+margin_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+text = "Press [Esc] to exit."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Serif" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 35.0
+margin_right = 389.0
+margin_bottom = 49.0
+custom_fonts/font = SubResource( 1 )
+text = "Plain white text is hard to read on a light background."
+
+[node name="Serif0X1Y" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 65.0
+margin_right = 416.0
+margin_bottom = 84.0
+custom_fonts/font = SubResource( 1 )
+text = "Single pixel lower drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow" type="Label" parent="Serif0X1Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_top = 1.0
+margin_right = 366.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 1 )
+text = "Single pixel lower drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Serif1X1Y" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 95.0
+margin_right = 443.0
+margin_bottom = 114.0
+custom_fonts/font = SubResource( 1 )
+text = "Single pixel lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow" type="Label" parent="Serif1X1Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 367.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 1 )
+text = "Single pixel lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Serif01X11Y" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 125.0
+margin_right = 523.0
+margin_bottom = 144.0
+custom_fonts/font = SubResource( 1 )
+text = "Double pixel lower and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow" type="Label" parent="Serif01X11Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 367.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 1 )
+text = "Double pixel lower and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow2" type="Label" parent="Serif01X11Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_top = 1.0
+margin_right = 393.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 1 )
+text = "Double pixel lower and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Serif_101X111Y" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 155.0
+margin_right = 592.0
+margin_bottom = 174.0
+custom_fonts/font = SubResource( 1 )
+text = "Triple pixel lower-left, lower, and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow" type="Label" parent="Serif_101X111Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 367.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 1 )
+text = "Triple pixel lower-left, lower, and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow2" type="Label" parent="Serif_101X111Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_top = 1.0
+margin_right = 393.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 1 )
+text = "Triple pixel lower-left, lower, and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow3" type="Label" parent="Serif_101X111Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = -1.0
+margin_top = 1.0
+margin_right = 472.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 1 )
+text = "Triple pixel lower-left, lower, and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SerifAllEdges" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 185.0
+margin_right = 592.0
+margin_bottom = 204.0
+custom_fonts/font = SubResource( 1 )
+text = "Four drop-shadows, one in each corner, this is the best."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow" type="Label" parent="SerifAllEdges"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 367.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 1 )
+text = "Four drop-shadows, one in each corner, this is the best."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow2" type="Label" parent="SerifAllEdges"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_top = 1.0
+margin_right = 393.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 1 )
+text = "Four drop-shadows, one in each corner, this is the best."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow3" type="Label" parent="SerifAllEdges"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = -1.0
+margin_top = 1.0
+margin_right = 472.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 1 )
+text = "Four drop-shadows, one in each corner, this is the best."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow4" type="Label" parent="SerifAllEdges"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = -1.0
+margin_top = -1.0
+margin_right = 541.0
+margin_bottom = 18.0
+custom_fonts/font = SubResource( 1 )
+text = "Four drop-shadows, one in each corner, this is the best."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mono" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 235.0
+margin_right = 600.0
+margin_bottom = 254.0
+custom_fonts/font = SubResource( 2 )
+text = "Plain white text is hard to read on a light background."
+
+[node name="Mono0X1Y" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 265.0
+margin_right = 590.0
+margin_bottom = 284.0
+custom_fonts/font = SubResource( 3 )
+text = "Single pixel lower drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow" type="Label" parent="Mono0X1Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_top = 1.0
+margin_right = 366.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 4 )
+text = "Single pixel lower drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mono1X1Y" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 295.0
+margin_right = 650.0
+margin_bottom = 314.0
+custom_fonts/font = SubResource( 5 )
+text = "Single pixel lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow" type="Label" parent="Mono1X1Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 367.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 6 )
+text = "Single pixel lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mono01X11Y" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 325.0
+margin_right = 750.0
+margin_bottom = 344.0
+custom_fonts/font = SubResource( 7 )
+text = "Double pixel lower and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow" type="Label" parent="Mono01X11Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 367.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 8 )
+text = "Double pixel lower and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow2" type="Label" parent="Mono01X11Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_top = 1.0
+margin_right = 393.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 9 )
+text = "Double pixel lower and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Mono_101X111Y" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 355.0
+margin_right = 592.0
+margin_bottom = 374.0
+custom_fonts/font = SubResource( 10 )
+text = "Triple pixel lower-left, lower, and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow" type="Label" parent="Mono_101X111Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 367.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 11 )
+text = "Triple pixel lower-left, lower, and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow2" type="Label" parent="Mono_101X111Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_top = 1.0
+margin_right = 393.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 12 )
+text = "Triple pixel lower-left, lower, and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow3" type="Label" parent="Mono_101X111Y"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = -1.0
+margin_top = 1.0
+margin_right = 472.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 13 )
+text = "Triple pixel lower-left, lower, and lower-right drop-shadow, hopefully it's better."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MonoAllEdges" type="Label" parent="."]
+margin_left = 50.0
+margin_top = 385.0
+margin_right = 610.0
+margin_bottom = 404.0
+custom_fonts/font = SubResource( 14 )
+text = "Four drop-shadows, one in each corner, this is the best."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow" type="Label" parent="MonoAllEdges"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 367.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 15 )
+text = "Four drop-shadows, one in each corner, this is the best."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow2" type="Label" parent="MonoAllEdges"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_top = 1.0
+margin_right = 393.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 16 )
+text = "Four drop-shadows, one in each corner, this is the best."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow3" type="Label" parent="MonoAllEdges"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = -1.0
+margin_top = 1.0
+margin_right = 472.0
+margin_bottom = 20.0
+custom_fonts/font = SubResource( 17 )
+text = "Four drop-shadows, one in each corner, this is the best."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Shadow4" type="Label" parent="MonoAllEdges"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+margin_left = -1.0
+margin_top = -1.0
+margin_right = 541.0
+margin_bottom = 18.0
+custom_fonts/font = SubResource( 18 )
+text = "Four drop-shadows, one in each corner, this is the best."
+__meta__ = {
+"_edit_use_anchors_": false
+}
