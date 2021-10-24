@@ -27,6 +27,7 @@ see where this goes.
 * [Experiment 17 - Sprite Joystick](#experiment17)
 * [Experiment 18 - Tilemap Layers](#experiment18)
 * [Experiment 19 - Lighting](#experiment19)
+* [Experiment 20 - LPC Sprite](#experiment20)
 
 ## Bribe me
 
@@ -397,3 +398,32 @@ demo.
   Challener as graphic artist and William.Thompsonj as contributor. Mandi Paugh
   is the original artist of Sara and creator of the
   [OGA](https://opengameart.org/) mascot.
+
+## <a name="experiment20">Experiment 20 - LPC Sprite</a>
+
+In this experiment, we'll take the LPC Sara animation from experiment 14 and
+let you cycle through the different animations in the spritesheet. Use WASD or
+arrow keys to walk around and Space to cycle to the next animation.
+
+![Experiment 20 - Animated Sprite](experiment-20.png)
+
+### Graphics
+
+* `grass.png` - A
+  [grass tile](https://opengameart.org/content/grass-tiles-0), by Invincible.
+* `LiberationMono-Bold.ttf` - An open source font from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+* [`LPC_Sara`](https://opengameart.org/content/lpc-sara) - Stephen "Redshrike"
+  Challener as graphic artist and William.Thompsonj as contributor. Mandi Paugh
+  is the original artist of Sara and creator of the
+  [OGA](https://opengameart.org/) mascot.
+
+LPC sprite sheet documentation:
+
+* Each row is a complete animation cycle.
+* Rows are mostly in groups of four based on facing: away, left, forward, right.
+* Animation rows are: Spellcast, Thrust, Walk, Slash, Shoot, Hurt (only one
+  facing for Hurt).
+* Are 64x64 on the sprite sheet.
