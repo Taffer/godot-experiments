@@ -28,6 +28,7 @@ see where this goes.
 * [Experiment 18 - Tilemap Layers](#experiment18)
 * [Experiment 19 - Lighting](#experiment19)
 * [Experiment 20 - LPC Sprite](#experiment20)
+* [Experiment 21 - Blocked Sprite](#experiment21)
 
 ## Bribe me
 
@@ -37,7 +38,7 @@ experiment?
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U541Y8C)
 
 Always willing to entertain suggestions, but if you're asking me to do some
-work, you have the option of fuelling it with coffee. ;-)
+work, you have the option of fuelling it with coffee. `;-)`
 
 ## Credits
 
@@ -427,3 +428,26 @@ LPC sprite sheet documentation:
 * Animation rows are: Spellcast, Thrust, Walk, Slash, Shoot, Hurt (only one
   facing for Hurt).
 * Are 64x64 on the sprite sheet.
+
+## <a name="experiment21">Experiment 21 - Blocked Sprite</a>
+
+In this experiment, we'll take experiment *14 - Animated Sprite* and add some
+blocks that restrict movement. I was trying to do this as part of a new
+lighting Experiment, but it wasn't working, so I decided to simplify a little.
+
+![Experiment 21 - Sprite Joystick](experiment-21.png)
+
+### Graphics
+
+* `col.png` - A [column](https://opengameart.org/content/pixel-column), by
+  mold, resized and cropped to 32x32.
+* `grass.png` - A
+  [grass tile](https://opengameart.org/content/grass-tiles-0), by Invincible.
+* `LiberationMono-Bold.ttf` - An open source font from the
+  [liberationfonts](https://github.com/liberationfonts/liberation-fonts) repo;
+  this is licensed under the
+  [SIL Open Font License](https://github.com/liberationfonts/liberation-fonts/blob/master/LICENSE).
+* [`LPC_Sara`](https://opengameart.org/content/lpc-sara) - Stephen "Redshrike"
+  Challener as graphic artist and William.Thompsonj as contributor. Mandi Paugh
+  is the original artist of Sara and creator of the
+  [OGA](https://opengameart.org/) mascot.
