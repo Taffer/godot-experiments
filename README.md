@@ -9,6 +9,7 @@ started as ports of my
 see where this goes.
 
 * [Experiment 01 - Scrolling Texture](#experiment01)
+  * [Experiment 01 - Scrolling Texture (Almost no code)](#experiment01-nocode)
 * [Experiment 02 - Monospaced Text](#experiment02)
 * [Experiment 03 - Variable Text](#experiment03)
 * [Experiment 04 - Text Entry](#experiment04)
@@ -67,6 +68,16 @@ The goal is to do this with one draw call, by adjusting the texture.
 
 This is actually more complex in Godot than in PyGame or Löve2D; we have to
 write a shader! Thank you Internet for answering this question.
+
+### <a name="experiment01-nocode">Experiment 01 - Scrolling Texture (Almost No Code)</a>
+
+This variant of [Experiment 1](#experiment01) accomplishes the same thing with
+two major differences:
+
+* almost no code (literally one line to set the animation when the scrolling
+  sprite is ready)
+* scrolling the texture using the texture Region rather than a shader; when I
+  first did Experiment 1 I didn't know about Region
 
 ### Graphics
 
